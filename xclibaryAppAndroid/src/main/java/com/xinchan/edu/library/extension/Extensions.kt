@@ -453,8 +453,8 @@ fun getMultiBody(params: HashMap<String, Any>?,
         val iter = params.entries.iterator()
 
         while (iter.hasNext()) {
-            val entry = iter.next() as Map.Entry<*, *>
-            val key = entry.key
+            val entry = iter.next() as  kotlin.collections.Map.Entry<*, *>
+//            val key = entry.key
             val `val` = entry.value
             builder.addFormDataPart("content", `val`.toString())
         }
@@ -610,8 +610,8 @@ fun getMultiBody(map: Array<Pair<String, Any>>?, videoPath: String, coverPath: S
 }
 
 fun Activity.getScreenSize(): Array<Int> {
-    var screenWidth = 0
-    var screenHeight = 0
+    var screenWidth: Int
+    var screenHeight: Int
     if (Build.VERSION.SDK_INT >= 17) {
         var metrics = DisplayMetrics()
         windowManager.defaultDisplay.getRealMetrics(metrics)

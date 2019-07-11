@@ -67,7 +67,7 @@ class SPUtil private constructor(name: String, context: Context?) {
     }
 
     fun getString(key: String): String {
-        return sp.getString(key, "")
+        return sp.getString(key, "")!!
     }
 
     companion object {

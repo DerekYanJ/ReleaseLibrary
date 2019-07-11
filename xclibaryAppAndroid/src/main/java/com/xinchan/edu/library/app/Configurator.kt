@@ -84,7 +84,7 @@ class Configurator {
 
     fun <T> getConfiguration(key: Any): T {
         checkConfiguration()
-        CONFIGS[key] ?: throw NullPointerException(key.toString() + " IS NULL")
+        CONFIGS[key] ?: throw NullPointerException("$key IS NULL")
         return CONFIGS[key] as T
     }
     fun getConfigs(): HashMap<Any, Any> {

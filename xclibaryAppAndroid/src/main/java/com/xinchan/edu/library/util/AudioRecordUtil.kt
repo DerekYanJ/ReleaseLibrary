@@ -6,6 +6,7 @@ import com.xinchan.edu.library.XcConstants
 import com.xinchan.edu.library.extension.loge
 import com.xinchan.edu.library.extension.nameAudio
 import java.io.File
+import kotlin.math.log10
 
 /**
  * Created by weicxu on 2018/2/28
@@ -84,11 +85,10 @@ class AudioRecordUtil {
 ////                stopRecord()
 //            }else {
             val radio: Double = mMediaRecorder!!.maxAmplitude / BASE
-            var db = 0.0
+            var db: Double
             if (radio > 1) {
-                db = 20 * Math.log10(radio)
-                if (listener != null)
-                    listener(db.toInt())
+                db = 20 * log10(radio)
+                listener(db.toInt())
             }
             handler.postDelayed({ updateMicStatus() }, SPACE)
 //            }

@@ -4,12 +4,12 @@ import android.annotation.SuppressLint
 import android.app.Activity
 import android.graphics.Color
 import android.os.Build
-import androidx.appcompat.widget.Toolbar
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.LinearLayout
+import androidx.appcompat.widget.Toolbar
 import com.blankj.utilcode.utils.BarUtils
 import com.xinchan.edu.library.R
 
@@ -80,7 +80,7 @@ class ToolBarHelper(private val mContext: Activity, layoutId: Int, val navigatio
         /*如果是悬浮状态，则不需要设置间距*/
         params.topMargin = if (overly) 0 else toolBarSize
 
-        contentView!!.addView(mUserView, params)
+        contentView.addView(mUserView, params)
     }
 
     companion object {

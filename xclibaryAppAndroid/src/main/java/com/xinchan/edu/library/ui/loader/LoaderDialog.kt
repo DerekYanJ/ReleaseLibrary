@@ -37,7 +37,6 @@ object LoaderDialog {
                 dialog.setContentView(avLoadingIndicatorView)
 
                 val deviceWidth = context.getScreenSize()[0]
-                val deviceHeight = context.getScreenSize()[1]
 
                 val dialogWindow = dialog.window
 
@@ -62,7 +61,7 @@ object LoaderDialog {
 
     fun stopLoading() {
         LOADERS
-                .filter { it != null && it.isShowing }
+                .filter { it.isShowing }
                 .forEach {
                     it.cancel()
 //                    loge("hideProgress .")
