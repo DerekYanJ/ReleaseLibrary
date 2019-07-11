@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBarPopupThemeOverlay" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="view_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/line</item>
+    </style>
+    <style name="view_line_margin_left">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/line</item>
+        <item name="android:layout_marginLeft">@dimen/view_margin</item>
+        <item name="android:layout_marginStart">@dimen/view_margin</item>
+    </style>
+
+    <style name="view_line_vertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/line</item>
+    </style>
+
+    <style name="view_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@color/bg_window</item>
+    </style>
+
+    <style name="view_margin_all">
+        <item name="android:layout_marginLeft">@dimen/view_margin</item>
+        <item name="android:layout_marginRight">@dimen/view_margin</item>
+        <item name="android:layout_marginTop">@dimen/top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/bottom_margin</item>
+    </style>
+
+    <style name="view_padding_all">
+        <item name="android:paddingLeft">@dimen/view_margin</item>
+        <item name="android:paddingRight">@dimen/view_margin</item>
+        <item name="android:paddingTop">@dimen/top_margin</item>
+        <item name="android:paddingBottom">@dimen/bottom_margin</item>
+    </style>
+
+    <style name="view_padding_all_top18">
+        <item name="android:paddingLeft">@dimen/view_margin</item>
+        <item name="android:paddingRight">@dimen/view_margin</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">18dp</item>
+    </style>
+
+    <style name="cv_padding_all">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="view_margin_left_and_right">
+        <item name="android:layout_marginLeft">@dimen/view_margin</item>
+        <item name="android:layout_marginRight">@dimen/view_margin</item>
+    </style>
+
+    <style name="view_margin_top_and_bottom">
+        <item name="android:layout_marginTop">@dimen/top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/bottom_margin</item>
+    </style>
+
+    <style name="view_padding_left_and_right">
+        <item name="android:paddingLeft">@dimen/view_margin</item>
+        <item name="android:paddingRight">@dimen/view_margin</item>
+    </style>
+
+    <style name="arraw_right">
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_width">24dp</item>
+        <item name="android:src">@drawable/ic_arrow_right_grey_dc</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="arraw_right_gray">
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_width">20dp</item>
+        <item name="android:src">@drawable/ic_arrow_right_grey</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <!--去掉边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--悬浮-->
+        <item name="android:windowIsFloating">true</item>
+        <!--半透明-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 引用Android系统的动画半透明样式 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!--不需要标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--允许模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--全屏幕-->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="full_screen_theme"  parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="tab_layout_text_size" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="tv_et_tip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginRight">@dimen/view_margin</item>
+        <item name="android:layout_marginEnd">@dimen/view_margin</item>
+        <item name="android:layout_marginTop">@dimen/top_margin</item>
+        <item name="android:textColor">@color/black_666</item>
+        <item name="android:layout_gravity">right|end</item>
+    </style>
+</resources>

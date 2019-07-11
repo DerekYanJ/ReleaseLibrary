@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">library</string>
+    <string name="face_transition" translatable="false">face</string>
+    <string name="face_1_transition" translatable="false">face_1_transition</string>
+
+    <string name="to_expand_hint">展开</string>
+    <string name="to_shrink_hint">收起</string>
+</resources>

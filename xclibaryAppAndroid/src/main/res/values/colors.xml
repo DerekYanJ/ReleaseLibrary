@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="line">#F0F0F0</color>
+    <!--<color name="line">#dedede</color>-->
+    <color name="view_view">#F8F8F8</color>
+
+    <color name="black_333">#333333</color>
+    <color name="black_555">#555555</color>
+    <color name="black_666">#666666</color>
+    <color name="black_999">#999999</color>
+    <color name="black_bbb">#bbbbbb</color>
+    <color name="black_eee">#eeeeee</color>
+
+    <color name="bg_window">#F8F8F8</color>
+    <color name="bg_button">#F8F8F8</color>
+
+    <color name="hint_et">#D3D3D3</color>
+    <color name="text_et">#444444</color>
+
+
+    <color name="cardview_shadow_start_color">#90DFDFDF</color>
+    <color name="cardview_shadow_end_color">#00333333</color>
+</resources>

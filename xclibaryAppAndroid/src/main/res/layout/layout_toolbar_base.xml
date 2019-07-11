@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:id="@+id/ll_toolbar">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/libray_toolbar_height"
+        app:popupTheme="@style/ActionBarPopupThemeOverlay"
+        android:elevation="0dp">
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_toolbar_right"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:drawablePadding="7dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_gravity="end|center"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            tools:targetApi="lollipop"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>

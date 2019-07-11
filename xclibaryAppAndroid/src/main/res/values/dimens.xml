@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="libray_toolbar_height">44dp</dimen>
+
+    <dimen name="view_margin">15dp</dimen>
+    <dimen name="height_base">48dp</dimen>
+    <dimen name="top_margin">10dp</dimen>
+    <dimen name="bottom_margin">10dp</dimen>
+    <dimen name="left_margin">10dp</dimen>
+    <dimen name="right_margin">10dp</dimen>
+
+    <dimen name="btn_default_height">48dp</dimen>
+    <dimen name="btn_default_margin">48dp</dimen>
+
+    <dimen name="view_default_height">48dp</dimen>
+</resources>

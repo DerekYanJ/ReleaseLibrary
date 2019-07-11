@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomRadioView">
+        <attr name="text" format="string" />
+        <attr name="defaultDrawable" format="reference" />
+        <attr name="selectDrawable" format="reference" />
+        <attr name="itemSelected" format="boolean" />
+        <attr name="colorSelect" format="color" />
+        <attr name="colorDefault" format="color" />
+
+    </declare-styleable>
+    <declare-styleable name="ToolbarCompat">
+        <attr name="withIcon" format="boolean" />
+        <attr name="toolTitle" format="string" />
+        <attr name="toolTitleColor" format="color" />
+        <attr name="showDivider" format="boolean" />
+        <attr name="rightButtonText" format="string" />
+        <attr name="rightButtonIcon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CardViewShadow">
+        <!-- Default Paint Color (color). -->
+        <attr name="startColor" format="reference|color"/>
+        <!-- Selected Paint Color (color). -->
+        <attr name="endColor" format="reference|color"/>
+    </declare-styleable>
+</resources>
